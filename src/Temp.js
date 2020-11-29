@@ -31,7 +31,7 @@ function Temp() {
         <div className=" col-span-6">
           <WritePost />
 
-          {new Array(2).fill(1).map((d, index) => (
+          {new Array(25).fill(1).map((d, index) => (
             <Post key={index} />
           ))}
         </div>
