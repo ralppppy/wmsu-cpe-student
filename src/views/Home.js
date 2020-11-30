@@ -6,7 +6,7 @@ import RightSection from "../components/home/rightsection/RightSection";
 function Home() {
   return (
     <>
-      <div className="col-span-6 mt-3">
+      <div className="col-span-6 mt-3 ">
         <WritePost />
 
         {new Array(25).fill(1).map((d, index) => (

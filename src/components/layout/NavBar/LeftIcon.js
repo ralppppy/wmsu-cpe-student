@@ -1,4 +1,5 @@
 import React from "react";
+import cpeLogo from "../../../assets/images/cpelogo.png";
 
 function LeftIcon() {
   return (
@@ -6,7 +7,7 @@ function LeftIcon() {
       <div>
         <img
           className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
-          src="http://wmsu-cpe.herokuapp.com/brand/brand@2x.png"
+          src={cpeLogo}
           alt=""
         />
       </div>

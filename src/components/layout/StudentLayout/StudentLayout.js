@@ -4,7 +4,7 @@ import LeftMenu from "./LeftMenu";
 
 function StudentLayout({ children }) {
   return (
-    <div className={`dark:bg-black`}>
+    <div className={`dark:bg-black h-full`}>
       <NavBar />
       <div className="grid grid-cols-12  mt-3 ml-2 gap-1 ">
         <div className="col-span-3">

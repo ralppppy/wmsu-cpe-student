@@ -15,7 +15,7 @@ function RightSection() {
   }, []);
   return (
     <div id="right-menu" className="h-5/6 w-2/1 fixed">
-      <div className="mt-3 mb-3">
+      <div className="mt-3 mb-3 mr-3">
         <h3 className="font-bold text-lg text-gray-600 dark:text-gray-300">
           Do you want to be a tutor?
         </h3>
@@ -28,8 +28,8 @@ function RightSection() {
           Apply Now!
         </button>
       </div>
-      <div className="h-px bg-black w-full bg-gray-300"></div>
-      <div className="mt-3 mb-3">
+      <div className="h-px bg-black w-2/1 bg-gray-300 mr-3 "></div>
+      <div className="mt-3 mb-3 mr-3">
         <h3 className="font-bold text-md text-gray-600 dark:text-gray-300">
           Your Contacts
         </h3>

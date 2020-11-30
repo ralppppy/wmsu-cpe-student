@@ -13,7 +13,7 @@ function Forum() {
       .catch((error) => console.log(error));
   }, []);
   return (
-    <div className="col-span-9 mt-3  mr-5 rounded-md p-5  dark:bg-gray-900">
+    <div className="col-span-9 mt-3  mr-5 rounded-md p-5  dark:bg-gray-900 h-full">
       <h2 className="font-bold text-4xl text-gray-600 mb-5 dark:text-gray-300">
         Forum Title
       </h2>

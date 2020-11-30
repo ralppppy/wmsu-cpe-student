@@ -2,16 +2,14 @@ import React, { useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 
 function MiddleMenu({ location }) {
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [location.pathname]);
+  useEffect(() => {}, [location.pathname]);
   return (
     <>
       <Link to="/">
         <div
           className={`${
-            location.pathname === "/" && "bg-gray-100"
-          } h-full cursor-pointer mr-2 p-5 rounded-md  hover:bg-gray-100	dark:bg-gray-700 dark:hover:bg-gray-700`}
+            location.pathname === "/" && "bg-gray-100  dark:bg-gray-700"
+          } h-full cursor-pointer mr-2 p-5 rounded-md  hover:bg-gray-100	 dark:hover:bg-gray-700`}
         >
           <svg
             viewBox="0 1 511 511.999"
@@ -25,7 +23,8 @@ function MiddleMenu({ location }) {
       <Link to="/forum">
         <div
           className={`${
-            location.pathname.includes("/forum") && "bg-gray-100"
+            location.pathname.includes("/forum") &&
+            "bg-gray-100 dark:bg-gray-700"
           } h-full cursor-pointer mr-2 p-5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700`}
         >
           <svg

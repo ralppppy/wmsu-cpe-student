@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+
+import { AppContext } from "../../../context/AppContext";
 
 function RightSearch() {
-  const [dark, setDark] = useState(false);
+  const { setDark, dark } = useContext(AppContext);
 
   return (
     <>
