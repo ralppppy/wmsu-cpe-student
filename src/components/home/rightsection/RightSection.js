@@ -13,6 +13,7 @@ function RightSection() {
       })
       .catch((error) => console.log(error));
   }, []);
+
   return (
     <div id="right-menu" className="h-5/6 w-2/1 fixed">
       <div className="mt-3 mb-3 mr-3">
