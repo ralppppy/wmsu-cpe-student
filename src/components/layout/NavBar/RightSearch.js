@@ -7,13 +7,12 @@ function RightSearch() {
     <>
       {dark ? (
         <>
-          {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="h-6 mr-3 cursor-pointer"
+            className="h-6 mr-3 cursor-pointer text-black dark:text-gray-200"
             onClick={() => {
               setDark(false);
               document.querySelector("html").classList.remove("dark");
@@ -35,7 +34,7 @@ function RightSearch() {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="h-6 mr-3 cursor-pointer"
+            className="h-6 mr-3 cursor-pointer text-black dark:text-gray-200"
             onClick={() => {
               setDark(true);
               document.querySelector("html").classList.add("dark");
@@ -55,7 +54,7 @@ function RightSearch() {
         className="bg-gray-100 w-full h-10 rounded-full pl-3 pr-3 focus:outline-none dark:bg-gray-700"
         placeholder="Search for something cool"
       />
-      <span class="flex items-center hover:text-indigo-600	">
+      <span class="flex items-center hover:text-indigo-600 text-black dark:text-gray-200">
         <button
           type="submit"
           class="p-1 focus:outline-none focus:shadow-outline"

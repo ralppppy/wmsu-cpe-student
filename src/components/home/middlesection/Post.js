@@ -13,15 +13,15 @@ function Post() {
         </div>
         <div className=" w-full ml-2">
           <div className="flex items-center">
-            <p className="font-bold text-gray-500 text-sm mr-4  dark:text-gray-300">
+            <p className="font-bold text-gray-600 text-sm mr-4  dark:text-gray-300">
               Ralp Yosores
             </p>
-            <p className="text-gray-500 text-xs dark:text-gray-300">
+            <p className="text-gray-600 text-xs dark:text-gray-300">
               Bachelor of Science in Computer Engineering
             </p>
           </div>
 
-          <p className="text-gray-500 text-xs dark:text-gray-300">4hr .</p>
+          <p className="text-gray-600 text-xs dark:text-gray-300">4hr .</p>
         </div>
       </div>
 
@@ -41,14 +41,14 @@ function Post() {
       </div>
       <div className="grid grid-cols-3   mt-1 ml-3 mr-3">
         <div className="m-1 flex items-center justify-center">
-          <p className="text-gray-500 font-medium text-sm">React</p>
+          <p className="text-gray-600 font-medium text-sm">React</p>
         </div>
         <div className="m-1 flex items-center justify-center">
-          <p className="text-gray-500 font-medium text-sm">Comment</p>
+          <p className="text-gray-600 font-medium text-sm">Comment</p>
         </div>
         <div className="m-1 flex items-center justify-center">
           {" "}
-          <p className="text-gray-500 font-medium text-sm">Save</p>
+          <p className="text-gray-600 font-medium text-sm">Save</p>
         </div>
       </div>
     </div>
