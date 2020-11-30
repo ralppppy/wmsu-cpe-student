@@ -23,7 +23,10 @@ function ForumSingle() {
 
       <ul>
         {users.map((d, index) => (
-          <li className="mb-5 mt-5" key={index}>
+          <li
+            className="mb-3 mt-3 bg-white p-5 dark:bg-gray-900 rounded-md"
+            key={index}
+          >
             <div className="flex items-start mr-3 mb-3">
               <div>
                 <img
