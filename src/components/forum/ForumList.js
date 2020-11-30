@@ -4,7 +4,7 @@ import chat from "../../assets/images/chat.png";
 
 function ForumList() {
   return (
-    <div className="col-span-9 mt-3  mr-5 rounded-md p-5  h-full">
+    <div className="col-span-9  mr-5 rounded-md p-5  h-full">
       {new Array(4).fill(1).map((d, i) => (
         <div className="mb-5" key={i}>
           <h2 className="font-bold text-2xl text-gray-700 mb-5 dark:text-gray-300">
