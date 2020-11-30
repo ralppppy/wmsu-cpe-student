@@ -5,7 +5,7 @@ function LeftIcon() {
     <>
       <div>
         <img
-          class="inline-block h-11 w-11 rounded-full ring-2 ring-white"
+          className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
           src="http://wmsu-cpe.herokuapp.com/brand/brand@2x.png"
           alt=""
         />

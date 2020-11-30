@@ -1,7 +1,11 @@
 import "./App.css";
 
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import Temp from "./Temp";
+
+import StudentLayout from "./components/layout/StudentLayout/StudentLayout";
+
+import Home from "./views/Home";
+import Forum from "./views/Forum";
 
 function App() {
   document.querySelector("#root").classList.add("dark:bg-black");
@@ -9,7 +13,24 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route exact path="/" component={Temp} />
+          <Route
+            exact
+            path="/"
+            component={() => (
+              <StudentLayout>
+                <Home />
+              </StudentLayout>
+            )}
+          />
+          <Route
+            exact
+            path="/forum"
+            component={() => (
+              <StudentLayout>
+                <Forum />
+              </StudentLayout>
+            )}
+          />
         </Switch>
       </Router>
     </div>

@@ -114,7 +114,7 @@ function LeftMenu() {
         {USER.map((menu, index) => (
           <div
             key={index}
-            class="flex items-center pb-2 pt-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
+            className="flex items-center pb-2 pt-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
           >
             <div>{menu.icon}</div>
             <div>
@@ -133,7 +133,7 @@ function LeftMenu() {
         {STUDENT_TOOLS.map((tool, index) => (
           <div
             key={index}
-            class="flex items-center rounded-md pb-2 pt-2 hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
+            className="flex items-center rounded-md pb-2 pt-2 hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
           >
             <div>{tool.icon}</div>
             <div>
