@@ -53,7 +53,7 @@ function RightSearch() {
       )}
 
       <input
-        className="bg-gray-100 w-full h-10 rounded-full pl-3 pr-3 focus:outline-none dark:bg-gray-700"
+        className="bg-gray-100 w-full h-10 rounded-full pl-3 pr-3 focus:outline-none dark:bg-gray-darkhover"
         placeholder="Search for something cool"
       />
       <span className="flex items-center hover:text-indigo-600 text-black dark:text-gray-200">

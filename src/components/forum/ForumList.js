@@ -17,7 +17,7 @@ function ForumList() {
               >
                 <div
                   key={index}
-                  className="flex items-center bg-white p-4 rounded-md shadow-sm cursor-pointer hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800"
+                  className="flex items-center bg-white p-4 rounded-md shadow-sm cursor-pointer hover:bg-gray-200 dark:bg-gray-card dark:hover:bg-gray-darkhover"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -9,7 +9,7 @@ import Forum from "./views/Forum";
 import ForumSingle from "./components/forum/ForumSingle";
 
 function App() {
-  document.querySelector("#root").classList.add("dark:bg-black");
+  document.querySelector("#root").classList.add("dark:bg-gray-background");
   return (
     <div>
       <Router>

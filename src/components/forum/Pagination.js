@@ -8,7 +8,7 @@ function Pagination() {
     >
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900 inline-flex items-center  px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card inline-flex items-center  px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
       >
         <span className="sr-only">Previous</span>
         <svg
@@ -27,46 +27,46 @@ function Pagination() {
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500  dark:text-gray-300 dark:bg-gray-900 inline-flex bg-blue-100 items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500  dark:text-gray-300 dark:bg-gray-card inline-flex bg-blue-100 items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         1
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         2
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900 hidden md:inline-flex  items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card hidden md:inline-flex  items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         3
       </a>
-      <span className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700">
+      <span className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700">
         ...
       </span>
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900 hidden md:inline-flex  items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card hidden md:inline-flex  items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         8
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         9
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-900  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+        className=" dark:border-gray-500 dark:text-gray-300 dark:bg-gray-card  inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
       >
         10
       </a>
       <a
         href="#"
-        className=" dark:border-gray-500  dark:text-gray-300 dark:bg-gray-900 inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+        className=" dark:border-gray-500  dark:text-gray-300 dark:bg-gray-card inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
       >
         <span className="sr-only">Next</span>
         <svg

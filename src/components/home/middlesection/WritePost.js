@@ -2,7 +2,7 @@ import React from "react";
 
 function WritePost() {
   return (
-    <div className="bg-white rounded-lg h-auto p-3 shadow-sm mb-5 dark:bg-gray-900">
+    <div className="bg-white rounded-lg h-auto p-3 shadow-sm mb-5 dark:bg-gray-card">
       <div className="flex items-center">
         <div>
           <img
@@ -13,7 +13,7 @@ function WritePost() {
         </div>
         <div className="w-full ml-2">
           <input
-            className="bg-gray-100 w-full rounded-full p-3 h-3/5 focus:outline-none dark:bg-gray-700 "
+            className="bg-gray-100 w-full rounded-full p-3 h-3/5 focus:outline-none dark:bg-gray-darkhover "
             placeholder="Say something"
           />
         </div>

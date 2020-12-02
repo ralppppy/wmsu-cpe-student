@@ -2,7 +2,7 @@ import React from "react";
 
 function Post() {
   return (
-    <div className="bg-white rounded-lg h-auto pt-3 pb-3 shadow-sm mb-5 dark:bg-gray-900 ">
+    <div className="bg-white rounded-lg h-auto pt-3 pb-3 shadow-sm mb-5 dark:bg-gray-card">
       <div class="flex items-start mr-3 ml-3">
         <div>
           <img
@@ -41,14 +41,20 @@ function Post() {
       </div>
       <div className="grid grid-cols-3   mt-1 ml-3 mr-3">
         <div className="m-1 flex items-center justify-center">
-          <p className="text-gray-600 font-medium text-sm">React</p>
+          <p className="text-gray-600 font-medium text-sm dark:text-gray-400">
+            React
+          </p>
         </div>
         <div className="m-1 flex items-center justify-center">
-          <p className="text-gray-600 font-medium text-sm">Comment</p>
+          <p className="text-gray-600 font-medium text-sm dark:text-gray-400">
+            Comment
+          </p>
         </div>
         <div className="m-1 flex items-center justify-center">
           {" "}
-          <p className="text-gray-600 font-medium text-sm">Save</p>
+          <p className="text-gray-600 font-medium text-sm dark:text-gray-400">
+            Save
+          </p>
         </div>
       </div>
     </div>

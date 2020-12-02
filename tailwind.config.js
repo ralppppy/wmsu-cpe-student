@@ -18,7 +18,7 @@ module.exports = {
 
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray,
+      // gray: colors.coolGray,
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
@@ -26,6 +26,12 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      gray: {
+        ...colors.coolGray,
+        background: "#18191a",
+        card: "#242526",
+        darkhover: "#3a3b3c",
+      },
     },
     spacing: {
       px: "1px",

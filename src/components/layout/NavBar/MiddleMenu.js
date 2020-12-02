@@ -8,8 +8,8 @@ function MiddleMenu({ location }) {
       <Link to="/">
         <div
           className={`${
-            location.pathname === "/" && "bg-gray-100  dark:bg-gray-700"
-          } h-full cursor-pointer mr-2 p-5 rounded-md  hover:bg-gray-100	 dark:hover:bg-gray-700`}
+            location.pathname === "/" && "bg-gray-100  dark:bg-gray-darkhover"
+          } h-full cursor-pointer mr-2 p-5 rounded-md  hover:bg-gray-100	 dark:hover:bg-gray-darkhover`}
         >
           <svg
             viewBox="0 1 511 511.999"
@@ -24,8 +24,8 @@ function MiddleMenu({ location }) {
         <div
           className={`${
             location.pathname.includes("/forum") &&
-            "bg-gray-100 dark:bg-gray-700"
-          } h-full cursor-pointer mr-2 p-5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700`}
+            "bg-gray-100 dark:bg-gray-darkhover"
+          } h-full cursor-pointer mr-2 p-5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-darkhover`}
         >
           <svg
             id="regular"
@@ -64,7 +64,7 @@ function MiddleMenu({ location }) {
           </svg>
         </div>
       </Link>
-      <div className="h-full cursor-pointer mr-2 p-5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700	">
+      <div className="h-full cursor-pointer mr-2 p-5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-darkhover	">
         <svg
           viewBox="0 -31 512.00026 512"
           className="h-6 w-auto fill-current text-black dark:text-gray-200 "

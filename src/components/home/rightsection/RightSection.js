@@ -38,7 +38,7 @@ function RightSection() {
         {users.map((d, index) => (
           <div
             key={index}
-            class="flex w-full items-center pb-2 pt-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
+            class="flex w-full items-center pb-2 pt-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-darkhover pl-5 pr-5 cursor-pointer"
           >
             <div>
               <img

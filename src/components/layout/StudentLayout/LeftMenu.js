@@ -109,7 +109,7 @@ function LeftMenu() {
     },
   ];
   return (
-    <div className="h-full w-2/1 fixed dark:bg-black">
+    <div className="h-full w-2/1 fixed dark:bg-gray-background">
       <div className="mb-5">
         {USER.map((menu, index) => (
           <div
