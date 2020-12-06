@@ -32,6 +32,12 @@ module.exports = {
         card: "#242526",
         darkhover: "#3a3b3c",
       },
+      tag: {
+        elite: "#9656ce",
+        textelite: "#f8f8f2",
+        newbie: "#cd7f32",
+        textnewbie: "#f8f8f2",
+      },
     },
     spacing: {
       px: "1px",

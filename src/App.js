@@ -6,7 +6,6 @@ import StudentLayout from "./components/layout/StudentLayout/StudentLayout";
 
 import Home from "./views/Home";
 import Forum from "./views/Forum";
-import ForumSingle from "./components/forum/ForumSingle";
 
 function App() {
   document.querySelector("#root").classList.add("dark:bg-gray-background");
@@ -37,7 +36,16 @@ function App() {
             path="/forum/:forumCategory/:forumName"
             component={() => (
               <StudentLayout>
-                <ForumSingle />
+                <Forum />
+              </StudentLayout>
+            )}
+          />
+          <Route
+            exact
+            path="/forum/:forumCategory/:forumName/:threadName"
+            component={() => (
+              <StudentLayout>
+                <Forum />
               </StudentLayout>
             )}
           />
