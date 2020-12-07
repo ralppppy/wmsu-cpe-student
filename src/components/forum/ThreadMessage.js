@@ -12,9 +12,15 @@ function ThreadMessage({ type }) {
           />
         </div>
         <div className="flex justify-center">
-          <h2 className="font-semibold">Ralp Yosores</h2>
+          <h2
+            className={`font-semibold ${
+              type === "reply" ? "text-tag-elite" : "text-tag-newbie"
+            } hover:underline cursor-pointer`}
+          >
+            Ralp Yosores
+          </h2>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-2">
           <div
             className={`${
               type === "reply" ? "bg-tag-elite" : "bg-tag-newbie"
