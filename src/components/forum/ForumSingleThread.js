@@ -5,7 +5,7 @@ import ThreadMessageEditor from "./ThreadMessageEditor";
 
 function ForumSingleThread() {
   return (
-    <div>
+    <>
       <div className="bg-white rounded-md p-3 shadow-sm mb-3 dark:bg-gray-card">
         <h2 className="font-bold text-2xl">This is the thread title</h2>
         <p className=" text-xs dark:text-gray-400">
@@ -37,11 +37,11 @@ function ForumSingleThread() {
             />
           </div>
         </div>
-        <div className="col-span-9">
+        <div className="col-span-9 ">
           <ThreadMessageEditor />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

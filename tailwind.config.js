@@ -38,6 +38,9 @@ module.exports = {
         newbie: "#cd7f32",
         textnewbie: "#f8f8f2",
       },
+      texteditor: {
+        hover: "#06c",
+      },
     },
     spacing: {
       px: "1px",
