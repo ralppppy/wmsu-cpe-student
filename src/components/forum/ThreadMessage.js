@@ -54,6 +54,20 @@ function ThreadMessage({ type }) {
               eu. Cupidatat voluptate eiusmod sint occaecat fugiat qui eu id
               excepteur ullamco velit Lorem. Aute est pariatur irure incididunt
               eu quis eu enim
+              <blockquote className="p-4 mt-2 italic border-l-4 bg-gray-100 text-neutral-600 border-neutral-500  dark:bg-gray-700 dark:border-gray-500 quote">
+                <p className="mb-2">
+                  This text will be replaced by blah blah one two. Cupidatat
+                  voluptate eiusmod sint occaecat fugiat qui eu id excepteur
+                  ullamco velit Lorem. Aute est pariatur irure incididunt eu
+                  quis eu enim
+                </p>
+                <cite>
+                  -
+                  <a href="..." target="_blank" rel="noopener noreferrer">
+                    Ralp Yosores
+                  </a>
+                </cite>
+              </blockquote>
             </>
           ) : (
             <>
@@ -76,10 +90,38 @@ function ThreadMessage({ type }) {
             </>
           )}
         </p>
-        <div className="text-xs text-gray-500 dark:text-gray-400">
+        <div className="text-xs text-gray-500 dark:text-gray-400 mb-5">
           Last edited by [User Name] : Jan 8, 2016
         </div>
 
+        <div className="relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4 fill-current text-gray-500 cursor-pointer hover:text-gray-600 animate-ping absolute bottom-0 left-0"
+            enableBackground="new 0 0 391.837 391.837"
+            version="1.1"
+            viewBox="0 0 391.837 391.837"
+            xmlSpace="preserve"
+          >
+            <path
+              fill="#D7443E"
+              d="M285.257 35.528c58.743.286 106.294 47.836 106.58 106.58 0 107.624-195.918 214.204-195.918 214.204S0 248.165 0 142.108c0-58.862 47.717-106.58 106.58-106.58a105.534 105.534 0 0189.339 48.065 106.578 106.578 0 0189.338-48.065z"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4 fill-current text-gray-500 cursor-pointer hover:text-gray-600 absolute bottom-0 left-0"
+            enableBackground="new 0 0 391.837 391.837"
+            version="1.1"
+            viewBox="0 0 391.837 391.837"
+            xmlSpace="preserve"
+          >
+            <path
+              fill="#D7443E"
+              d="M285.257 35.528c58.743.286 106.294 47.836 106.58 106.58 0 107.624-195.918 214.204-195.918 214.204S0 248.165 0 142.108c0-58.862 47.717-106.58 106.58-106.58a105.534 105.534 0 0189.339 48.065 106.578 106.578 0 0189.338-48.065z"
+            ></path>
+          </svg>
+        </div>
         <div className="absolute right-2 bottom-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

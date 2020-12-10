@@ -27,7 +27,7 @@ function ForumSingleThread() {
           <ThreadMessage type="reply" />
         </div>
       ))}
-      <div className="grid grid-cols-12 mt-4 bg-white p-4 rounded-md shadow-sm dark:bg-gray-card">
+      <div className="grid grid-cols-12 mt-4 relative bg-white p-4 rounded-md shadow-sm dark:bg-gray-card">
         <div className="col-span-3">
           <div className="flex justify-center p-3">
             <img

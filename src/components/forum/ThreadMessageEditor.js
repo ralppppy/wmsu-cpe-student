@@ -8,7 +8,7 @@ import "./styles.css";
 import "quill-emoji/dist/quill-emoji.css";
 
 function ThreadMessageEditor() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState();
 
   useEffect(() => {
     let b = document.getElementsByClassName("ql-picker-options");
@@ -74,12 +74,12 @@ function ThreadMessageEditor() {
     "align",
     "clean",
     "emoji",
+    "blockquote",
   ];
 
   const handleChange = () => {};
   return (
     <ReactQuill
-      className="h-20"
       value={text}
       modules={modules} // or modules
       formats={formats}

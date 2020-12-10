@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { Suspense } from "react";
 import { withRouter } from "react-router-dom";
 import { Spinner } from "../components/common";
 import { ForumList, ForumSingle, ForumSingleThread } from "../components/forum";
