@@ -97,30 +97,33 @@ function ThreadMessage({ type }) {
         <div className="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-4 h-4 fill-current text-gray-500 cursor-pointer hover:text-gray-600 animate-ping absolute bottom-0 left-0"
+            className="w-4 h-4 fill-current text-bts-twitter cursor-pointer hover:text-gray-600 animate-ping absolute bottom-0 left-0"
             enableBackground="new 0 0 391.837 391.837"
             version="1.1"
             viewBox="0 0 391.837 391.837"
             xmlSpace="preserve"
           >
             <path
-              fill="#D7443E"
+              //fill="#D7443E"text-gray-500
               d="M285.257 35.528c58.743.286 106.294 47.836 106.58 106.58 0 107.624-195.918 214.204-195.918 214.204S0 248.165 0 142.108c0-58.862 47.717-106.58 106.58-106.58a105.534 105.534 0 0189.339 48.065 106.578 106.578 0 0189.338-48.065z"
             ></path>
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-4 h-4 fill-current text-gray-500 cursor-pointer hover:text-gray-600 absolute bottom-0 left-0"
+            className="w-4 h-4 fill-current text-bts-twitter cursor-pointer hover:text-gray-600 absolute bottom-0 left-0"
             enableBackground="new 0 0 391.837 391.837"
             version="1.1"
             viewBox="0 0 391.837 391.837"
             xmlSpace="preserve"
           >
             <path
-              fill="#D7443E"
+              //fill="#D7443E"
               d="M285.257 35.528c58.743.286 106.294 47.836 106.58 106.58 0 107.624-195.918 214.204-195.918 214.204S0 248.165 0 142.108c0-58.862 47.717-106.58 106.58-106.58a105.534 105.534 0 0189.339 48.065 106.578 106.578 0 0189.338-48.065z"
             ></path>
           </svg>
+          <div className="absolute bottom-0 left-5 text-xs text-gray-600 dark:text-gray-300 ">
+            32,445
+          </div>
         </div>
         <div className="absolute right-2 bottom-2">
           <svg

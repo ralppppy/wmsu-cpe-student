@@ -41,6 +41,9 @@ module.exports = {
       texteditor: {
         hover: "#06c",
       },
+      bts: {
+        twitter: "#aa8ed6",
+      },
     },
     spacing: {
       px: "1px",
