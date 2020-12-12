@@ -24,7 +24,13 @@ function ThreadMessage({ type, user }) {
               type === "reply" ? "text-tag-elite" : "text-tag-newbie"
             } hover:underline cursor-pointer`}
           >
-            {user?.name.first} {user?.name.last}
+            {type === "reply" ? (
+              <>
+                {user?.name.first} {user?.name.last}
+              </>
+            ) : (
+              "Ralp Yosores"
+            )}
           </h2>
         </div>
         <div className="flex justify-center mb-2">
