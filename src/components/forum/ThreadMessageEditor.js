@@ -88,4 +88,4 @@ function ThreadMessageEditor() {
   );
 }
 
-export default ThreadMessageEditor;
+export default React.memo(ThreadMessageEditor);

@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 import { ThreadMessage } from "./";
 import ThreadMessageEditor from "./ThreadMessageEditor";
 
 function ForumSingleThread() {
+  const [users, setUsers] = useState([]);
+  useEffect(() => {
+    fetch("https://randomuser.me/api/?results=10")
+      .then((res) => res.json())
+      .then((resJson) => {
+        setUsers(resJson.results);
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
     <>
       <div className="bg-white rounded-md p-3 shadow-sm mb-3 dark:bg-gray-card">
@@ -19,12 +29,12 @@ function ForumSingleThread() {
       <div className="grid grid-cols-12  mt-3  text-gray-700  dark:text-gray-300">
         <ThreadMessage />
       </div>
-      {new Array(8).fill(1).map((d, index) => (
+      {users.map((user, index) => (
         <div
           key={index}
           className="grid grid-cols-12  mt-3  text-gray-700  dark:text-gray-300"
         >
-          <ThreadMessage type="reply" />
+          <ThreadMessage type="reply" user={user} />
         </div>
       ))}
       <div className="grid grid-cols-12 mt-4 relative bg-white p-4 rounded-md shadow-sm dark:bg-gray-card">
