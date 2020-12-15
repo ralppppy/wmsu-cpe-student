@@ -4,8 +4,7 @@ import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 
 import StudentLayout from "./components/layout/StudentLayout/StudentLayout";
 
-import Home from "./views/Home";
-import Forum from "./views/Forum";
+import { Home, Forum, Profile } from "./views";
 
 function App() {
   document.querySelector("#root").classList.add("dark:bg-gray-background");
@@ -19,6 +18,15 @@ function App() {
             component={() => (
               <StudentLayout>
                 <Home />
+              </StudentLayout>
+            )}
+          />
+          <Route
+            exact
+            path="/:userName"
+            component={() => (
+              <StudentLayout isProfile={true}>
+                <Profile />
               </StudentLayout>
             )}
           />
