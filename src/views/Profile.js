@@ -1,6 +1,4 @@
 import React from "react";
-import { Parallax } from "react-scroll-parallax";
-
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 
