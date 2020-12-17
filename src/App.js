@@ -23,7 +23,7 @@ function App() {
           />
           <Route
             exact
-            path="/:userName"
+            path="/profile/:userName"
             component={() => (
               <StudentLayout isProfile={true}>
                 <Profile />

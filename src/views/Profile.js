@@ -1,4 +1,6 @@
 import React from "react";
+import { Parallax } from "react-scroll-parallax";
+
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 
@@ -55,6 +57,36 @@ function Profile() {
           </h1>
         </div>
       </div>
+      {/* <div className="bg-white p-5">
+        Excepteur incididunt consequat sint mollit Lorem exercitation qui qui
+        voluptate voluptate. Lorem ea tempor irure eiusmod. Incididunt culpa
+        reprehenderit nostrud proident elit do dolore irure eu. Minim id minim
+        dolore aute cillum commodo. Eiusmod irure id id sit officia ipsum est
+        ipsum cupidatat proident ut. Ut veniam elit officia Lorem minim
+        consectetur elit nostrud ea sunt nisi. In aliqua non nisi eu voluptate
+        non aute ipsum duis nisi exercitation culpa. Aliquip dolore voluptate
+        esse nisi tempor quis deserunt sunt sint. Enim laboris Lorem aliqua
+        proident velit mollit ex eiusmod id ipsum veniam esse consequat do.
+        Tempor incididunt et occaecat enim nisi. Non excepteur amet sunt elit
+        aliqua esse ea cupidatat. Velit incididunt tempor incididunt fugiat
+        incididunt velit deserunt aute. Dolore minim veniam ut velit culpa
+        excepteur tempor nulla non exercitation eiusmod voluptate in.
+        Reprehenderit eu deserunt exercitation consequat eu laborum cupidatat
+        incididunt sit cupidatat et cillum deserunt cupidatat. Veniam veniam
+        aliqua sint labore cillum incididunt officia amet mollit nulla ea. Sit
+        ipsum fugiat exercitation ut ad irure et consectetur ex labore anim et
+        aliqua qui. Mollit minim adipisicing veniam non voluptate et adipisicing
+        labore laborum excepteur. Eiusmod qui Lorem laboris qui minim dolor
+        cillum magna officia occaecat laborum. Magna laboris laborum mollit
+        enim. Pariatur exercitation in ipsum labore proident. Occaecat do ipsum
+        irure cillum do aliquip ad quis quis mollit anim. Ipsum quis eiusmod ut
+        esse sunt eiusmod. Nostrud ut eu commodo sit fugiat fugiat occaecat eu
+        ipsum pariatur. Magna et cupidatat anim anim qui est exercitation. Dolor
+        labore velit commodo ea aliqua deserunt ullamco proident anim. Sit
+        commodo enim consectetur aliqua. Do laborum adipisicing eiusmod velit
+        sunt nulla elit labore magna ex sit veniam aute. Culpa incididunt in
+        reprehenderit qui.
+      </div> */}
       <ReactJkMusicPlayer
         className="bg-red-500"
         defaultPosition={{ right: 20, bottom: 20 }}

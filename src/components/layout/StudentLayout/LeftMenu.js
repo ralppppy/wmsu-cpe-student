@@ -7,6 +7,7 @@ import account from "../../../assets/images/account.png";
 import notebook from "../../../assets/images/notebook.png";
 import exam from "../../../assets/images/exam.png";
 import performance from "../../../assets/images/performance.png";
+import { Link } from "react-router-dom";
 
 function LeftMenu() {
   const STUDENT_TOOLS = [
@@ -57,6 +58,7 @@ function LeftMenu() {
           />
         </>
       ),
+      link: "/profile/ralppppy",
     },
 
     {
@@ -112,7 +114,8 @@ function LeftMenu() {
     <div className="h-full w-2/1 fixed dark:bg-gray-background">
       <div className="mb-5">
         {USER.map((menu, index) => (
-          <div
+          <Link
+            to={menu.link}
             key={index}
             className="flex items-center pb-2 pt-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 pl-5 pr-5 cursor-pointer"
           >
@@ -122,7 +125,7 @@ function LeftMenu() {
                 {menu.title}
               </h4>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
       <div className="h-px bg-black w-full bg-gray-200"></div>
