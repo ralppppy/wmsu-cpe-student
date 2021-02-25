@@ -1,13 +1,13 @@
-import React from "react";
-import gant from "../../../assets/images/gantt.png";
-import todo from "../../../assets/images/todo.png";
-import flowChart from "../../../assets/images/flow-chart.png";
-import coding from "../../../assets/images/coding.png";
-import account from "../../../assets/images/account.png";
-import notebook from "../../../assets/images/notebook.png";
-import exam from "../../../assets/images/exam.png";
-import performance from "../../../assets/images/performance.png";
-import { Link } from "react-router-dom";
+import React from "react"
+import gant from "../../../assets/images/gantt.png"
+import todo from "../../../assets/images/todo.png"
+import flowChart from "../../../assets/images/flow-chart.png"
+import coding from "../../../assets/images/coding.png"
+import account from "../../../assets/images/account.png"
+import notebook from "../../../assets/images/notebook.png"
+import exam from "../../../assets/images/exam.png"
+import performance from "../../../assets/images/performance.png"
+import { Link } from "react-router-dom"
 
 function LeftMenu() {
   const STUDENT_TOOLS = [
@@ -44,7 +44,7 @@ function LeftMenu() {
       ),
     },
     { title: "Comming soon...", icon: "" },
-  ];
+  ]
 
   const USER = [
     {
@@ -54,7 +54,7 @@ function LeftMenu() {
           <img
             alt="icon"
             className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
-            src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.0-9/116893716_3204324283015870_5983696327049027815_o.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGkR2afXv9hVLQO9qHDHEblld2WR0vxCx6V3ZZHS_ELHk30MP1YjTLn4NFdzGoEQZqu0OZrr2VkTI601kN6oWwk&_nc_ohc=RWw4GqvNl28AX8BxdnA&_nc_ht=scontent.fceb1-1.fna&oh=56bfd0b69e5b341fb4067fed44980c99&oe=5FE7DD48"
+            src="https://randomuser.me/api/portraits/med/men/78.jpg"
           />
         </>
       ),
@@ -109,7 +109,7 @@ function LeftMenu() {
         </>
       ),
     },
-  ];
+  ]
   return (
     <div className="h-full w-2/1 fixed dark:bg-gray-background">
       <div className="mb-5">
@@ -148,7 +148,7 @@ function LeftMenu() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default LeftMenu;
+export default LeftMenu

@@ -1,18 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 
 function RightSection() {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState([])
 
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=10")
       .then((res) => res.json())
       .then((resJson) => {
-        console.log(resJson);
-
-        setUsers(resJson.results);
+        setUsers(resJson.results)
       })
-      .catch((error) => console.log(error));
-  }, []);
+      .catch((error) => console.log(error))
+  }, [])
 
   return (
     <div id="right-menu" className="h-5/6 w-2/1 fixed">
@@ -59,7 +57,7 @@ function RightSection() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default RightSection;
+export default RightSection
